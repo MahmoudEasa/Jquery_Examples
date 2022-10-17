@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Jquery-Examples</title>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li data-nav="home" class="active">
+					<a href="#">Home</a>
+				</li>
+				<li data-nav="about"><a href="#">About</a></li>
+				<li data-nav="portfolio">
+					<a href="#">Portfolio</a>
+				</li>
+				<li data-nav="contact">
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</header>
+
+		<section id="home" class="home">
+			<p>Home Content</p>
+		</section>
+
+		<section id="about" class="about">
+			<p>About Content</p>
+		</section>
+
+		<section id="portfolio" class="portfolio">
+			<p>Portfolio Content</p>
+
+			<div class="tabs">
+				<button class="mmm" id="img1">Images 1</button>
+				<button id="img2">Images 2</button>
+				<button id="img3">Images 3</button>
+				<button id="all">All Images</button>
+			</div>
+
+			<div class="images">
+				<img id="img1" src="images/product-1.jpeg" alt="" />
+				<img id="img1" src="images/product-2.jpeg" alt="" />
+				<img id="img2" src="images/product-3.jpeg" alt="" />
+				<img id="img2" src="images/product-4.jpeg" alt="" />
+				<img id="img3" src="images/product-5.jpeg" alt="" />
+				<img id="img3" src="images/product-6.jpeg" alt="" />
+			</div>
+		</section>
+
+		<section id="contact" class="contact">
+			<p>Contact Content</p>
+
+			<input type="text" />
+			<textarea
+				name=""
+				id=""
+				cols="30"
+				rows="10"
+				placeholder="Enter msg"
+			></textarea>
+		</section>
+
+		<div class="scrollTop">Up</div>
+
+		<script src="jquery-3.6.1.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
